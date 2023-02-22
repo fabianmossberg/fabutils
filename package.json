@@ -1,6 +1,12 @@
 {
 	"name": "@fabianmossberg/fabutils",
 	"version": "0.0.1",
+	"author": {
+		"name": "Fabian Mossberg",
+		"email": "fabian@mossberg.xyz",
+		"url": "https://mossberg.xyz"
+	},
+	"repository": "github:fabianmossberg/fabutils",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
