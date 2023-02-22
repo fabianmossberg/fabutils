@@ -1,0 +1,2 @@
+export const formatName = (name:string, locale='sv'):string => name.toLocaleLowerCase(locale)
+.replace((/(^(?!(von|de|af)\s)\p{Letter})|([-\s))](?!((de(?!\sla\sgardie|\sgeer)))|(la|di|la|le|van|von|af|der)\s|du(?!\srietz))\p{Letter})/ug), match => match.toLocaleUpperCase(locale)).replace(/\s{2,}/g, ' ').trim()
